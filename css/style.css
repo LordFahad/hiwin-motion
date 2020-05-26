@@ -1,0 +1,25 @@
+@import 'reset.css';
+
+body {
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+}
+/*===== Top Header Styles ===== */
+
+.top-header{
+    grid-column: 1/-1;
+    background: rgb(34,193,195);
+    background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(255,189,48,1) 100%); 
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+}
+
+.login, header,main {
+    grid-column: 2/3;
+    padding: 10px 0;
+}
+
+.search {
+    grid-column: 3/4;
+    padding: 10px 0;
+}
